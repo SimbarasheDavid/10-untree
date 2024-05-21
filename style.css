@@ -5,12 +5,12 @@
 }
 
 #navbar {
-  padding: 20px 50px 0px 50px;
+  padding: 20px 50px 10px 50px;
   display: flex;
   background: #3B5D50;
   align-items: center;
   justify-content: center;
-  gap: 560px;
+  gap: 480px;
   position: absolute;
   z-index: 1;
   height: -moz-max-content;
@@ -29,13 +29,15 @@
 }
 #navbar nav {
   display: flex;
-  align-items: end;
-  justify-content: end;
-  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 #navbar .cart {
   display: flex;
   gap: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 #heading {
@@ -118,6 +120,7 @@
 }
 #crafted .cards .card {
   text-align: center;
+  border: none;
 }
 #crafted .cards .card img {
   width: 100%;
@@ -130,17 +133,20 @@
 }
 #who h5 {
   font-size: 25px;
+  padding: 10px;
 }
 #who h6 {
   font-size: 18px;
+  padding: 10px;
 }
 #who p {
   font-size: 18px;
   padding: 30px 0px;
+  padding: 10px;
 }
 #who .fast {
   display: flex;
-  gap: 100px;
+  gap: 80px;
 }
 #who .fast .yellow {
   bottom: 200px;
@@ -153,7 +159,7 @@
   position: absolute;
   width: 400px;
   top: 100px;
-  left: 80px;
+  left: 50px;
 }
 #who .fast .yellow .dot img {
   width: 100%;
@@ -164,9 +170,14 @@
   align-items: baseline;
   gap: 40px;
 }
+#who .card-container .card {
+  border: #3B5D50;
+  border-radius: 20px;
+}
 #who .card-container .card img {
   left: -20px;
   position: relative;
+  width: 20%;
 }
 #who .card-container .box {
   background: #CBD4D1;
@@ -176,16 +187,19 @@
   border-radius: 100%;
 }
 #who .card-container1 {
+  padding: 40px 0px;
   display: flex;
   align-items: baseline;
   gap: 40px;
 }
 #who .card-container1 .card {
   border: #3B5D50;
+  border-radius: 20px;
 }
 #who .card-container1 .card img {
   left: -20px;
   position: relative;
+  width: 20%;
 }
 #who .card-container1 .box {
   background: #CBD4D1;
@@ -395,12 +409,12 @@ form .inputs .put input {
   border-radius: 10px;
   border: solid(rgba #3B5D50);
 }
-form .inputs .sofa {
+form .sofa {
   position: absolute;
-  left: 700px;
-  top: 97cm;
+  right: 0px;
+  top: 108cm;
 }
-form .inputs .sofa img {
+form .sofa img {
   width: 100%;
 }
 
@@ -414,7 +428,7 @@ form .inputs .sofa img {
   padding: 30px 0px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 80px;
 }
 #toes .textbox a {
@@ -584,7 +598,7 @@ form .inputs .sofa img {
   }
   #who .fast .yellow .dot {
     position: absolute;
-    width: 300px;
+    width: 250px;
     top: 100px;
     left: 30px;
   }
@@ -826,7 +840,7 @@ form .inputs .sofa img {
   form .inputs .sofa {
     position: absolute;
     left: 700px;
-    top: 97cm;
+    top: 1cm;
   }
   form .inputs .sofa img {
     width: 100%;
