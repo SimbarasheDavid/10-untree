@@ -1,0 +1,1303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  padding: 20px 50px 0px 50px;
+  display: flex;
+  background: #3B5D50;
+  align-items: center;
+  justify-content: center;
+  gap: 560px;
+  position: absolute;
+  z-index: 1;
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+}
+#navbar h1 {
+  font-size: 45px;
+  color: #fff;
+}
+#navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: #fff;
+}
+#navbar nav {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  gap: 40px;
+}
+#navbar .cart {
+  display: flex;
+  gap: 40px;
+}
+
+#heading {
+  background: #3B5D50;
+  padding: 130px 60px;
+  background-size: cover;
+  position: relative;
+  height: auto;
+}
+#heading .mode {
+  display: flex;
+}
+#heading h2 {
+  font-size: 48px;
+  color: #fff;
+}
+#heading p {
+  padding: 40px 0px 20px 0px;
+  font-size: 20px;
+  color: #fff;
+}
+#heading .btn {
+  display: flex;
+  gap: 10px;
+}
+#heading .btn button {
+  padding: 15px 30px;
+  background: #F8C045;
+  border-radius: 30px;
+  color: #fff;
+}
+#heading .btn .sbtn button {
+  background: #fff;
+  color: #000;
+}
+#heading .dots {
+  padding-left: 100px;
+}
+#heading .dots .green {
+  padding-left: 400px;
+  position: relative;
+  bottom: 50px;
+}
+#heading .dots .green img {
+  width: 100%;
+}
+#heading .dots .couch {
+  position: absolute;
+  bottom: -100px;
+}
+#heading .dots .couch img {
+  width: 100%;
+}
+
+#crafted {
+  padding: 100px 100px;
+}
+#crafted h3 {
+  font-size: 25px;
+  font-weight: 800;
+}
+#crafted p {
+  padding: 50px 0px 30px 0px;
+}
+#crafted .with button {
+  bottom: -30px;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 40px;
+}
+#crafted .excellent {
+  display: flex;
+  gap: 80px;
+}
+#crafted .cards {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#crafted .cards .card {
+  text-align: center;
+}
+#crafted .cards .card img {
+  width: 100%;
+}
+
+#who {
+  padding: 100px 0px 0px 100px;
+  position: relative;
+  background: #EFF2F1;
+}
+#who h5 {
+  font-size: 25px;
+}
+#who h6 {
+  font-size: 18px;
+}
+#who p {
+  font-size: 18px;
+  padding: 30px 0px;
+}
+#who .fast {
+  display: flex;
+  gap: 100px;
+}
+#who .fast .yellow {
+  bottom: 200px;
+  position: relative;
+}
+#who .fast .yellow img {
+  width: 80%;
+}
+#who .fast .yellow .dot {
+  position: absolute;
+  width: 400px;
+  top: 100px;
+  left: 80px;
+}
+#who .fast .yellow .dot img {
+  width: 100%;
+  border-radius: 20px;
+}
+#who .card-container {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+}
+#who .card-container .card img {
+  left: -20px;
+  position: relative;
+}
+#who .card-container .box {
+  background: #CBD4D1;
+  padding: 20px;
+  width: 20px;
+  position: absolute;
+  border-radius: 100%;
+}
+#who .card-container1 {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+}
+#who .card-container1 .card {
+  border: #3B5D50;
+}
+#who .card-container1 .card img {
+  left: -20px;
+  position: relative;
+}
+#who .card-container1 .box {
+  background: #CBD4D1;
+  padding: 20px;
+  width: 20px;
+  border-radius: 100%;
+  position: absolute;
+}
+
+#interior {
+  padding: 100px 0px 0px 100px;
+}
+#interior .dot {
+  display: flex;
+  gap: 80px;
+}
+#interior .ndudu {
+  display: flex;
+  position: relative;
+}
+#interior .ndudu .into img {
+  width: 100%;
+}
+#interior .ndudu .in {
+  padding: 60px 0px;
+  position: absolute;
+  width: 300px;
+  left: -230px;
+  position: relative;
+}
+#interior .ndudu .in img {
+  width: 100%;
+  border-radius: 20px;
+}
+#interior .inside {
+  padding: 60px 0px;
+}
+#interior .inside img {
+  width: 200px;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  border-radius: 20px;
+}
+#interior .office {
+  position: absolute;
+  width: 150px;
+  left: 90px;
+  top: 40px;
+}
+#interior .office img {
+  border-radius: 20px;
+  width: 100%;
+}
+#interior .modern {
+  padding: 80px 0px 0px 0px;
+}
+#interior .modern h6 {
+  font-size: 23px;
+  font-weight: 800;
+}
+#interior .modern p {
+  padding: 10px 0px 0px 0px;
+}
+#interior .modern li {
+  padding: 0px 0px 30px 0px;
+}
+#interior .modern .listed {
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  list-style: square;
+}
+#interior .modern .liste {
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  list-style: square;
+}
+#interior .modern button {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#nordic {
+  padding: 80px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EFF2F1;
+  gap: 30px;
+}
+#nordic .kruzo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: solid #3B5D50;
+  border-left: solid #fff;
+  border-top: #CBD4D1;
+  border-radius: 20px;
+}
+#nordic .kruzo h2 {
+  width: 100%;
+  font-size: 20px;
+}
+#nordic .kruzo p {
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+#nordic .kruzo .pic img {
+  width: 100%;
+}
+#nordic .kruzo button {
+  border: none;
+  color: #F8C045;
+}
+#nordic .kruzo button:hover {
+  background: #CBD4D1;
+  color: #000;
+  border: solid #3B5D50;
+  padding: 10px 10px;
+}
+
+#maria {
+  padding: 80px 80px;
+  text-align: center;
+}
+#maria .jones h3 {
+  font-size: 25px;
+}
+#maria .jones p {
+  padding: 30px 180px;
+  font-size: 20px;
+}
+#maria .profile img {
+  border-radius: 50%;
+}
+
+#bloger {
+  padding: 80px 80px;
+  background: #EFF2F1;
+  position: relative;
+}
+#bloger .blog {
+  display: flex;
+  gap: 900px;
+}
+#bloger .blog h4 {
+  font-size: 25px;
+}
+#bloger .blog a {
+  color: #000;
+}
+#bloger .wrapper-container {
+  padding: 30px 0px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#bloger .wrapper-container .card img {
+  width: 100%;
+  border-radius: 20px;
+}
+#bloger .wrapper-container .card h2 {
+  font-size: 18px;
+  text-align: center;
+}
+#bloger .wrapper-container .card p span {
+  font-weight: 800;
+}
+
+form {
+  padding: 80px;
+}
+form .news {
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+}
+form .inputs {
+  display: flex;
+  gap: 200px;
+}
+form .inputs button {
+  background: #3B5D50;
+  border: none;
+  font-size: 0px;
+  text-align: center;
+  padding: 11px;
+  border-radius: 10px;
+}
+form .inputs .put {
+  display: flex;
+  gap: 10px;
+}
+form .inputs .put input {
+  padding: 10px;
+  border-radius: 10px;
+  border: solid(rgba #3B5D50);
+}
+form .inputs .sofa {
+  position: absolute;
+  left: 700px;
+  top: 97cm;
+}
+form .inputs .sofa img {
+  width: 100%;
+}
+
+#toes {
+  padding: 100px 80px;
+}
+#toes h1 {
+  color: #3B5D50;
+}
+#toes .textbox {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+#toes .textbox a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  line-height: 30px;
+}
+#toes .textbox .cons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+  gap: 20px;
+}
+#toes .textbox .cons .ico {
+  background: #68867c;
+  padding: 20px;
+  border-radius: 70%;
+}
+#toes .textbox .cons .ico img {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  #navbar {
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    background: #3B5D50;
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+    position: absolute;
+    z-index: 1;
+    height: -moz-max-content;
+    height: max-content;
+    width: 100%;
+  }
+  #navbar h1 {
+    font-size: 45px;
+    color: #fff;
+  }
+  #navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #fff;
+  }
+  #navbar nav {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 20px;
+  }
+  #navbar .cart {
+    display: flex;
+    gap: 20px;
+  }
+  #heading {
+    background: #3B5D50;
+    padding: 130px 60px;
+    background-size: cover;
+    position: relative;
+    height: auto;
+  }
+  #heading .mode {
+    display: flex;
+  }
+  #heading h2 {
+    font-size: 48px;
+    color: #fff;
+  }
+  #heading p {
+    padding: 40px 0px 20px 0px;
+    font-size: 20px;
+    color: #fff;
+  }
+  #heading .btn {
+    display: flex;
+    gap: 10px;
+  }
+  #heading .btn button {
+    padding: 15px 30px;
+    background: #F8C045;
+    border-radius: 30px;
+    color: #fff;
+  }
+  #heading .btn .sbtn button {
+    background: #fff;
+    color: #000;
+  }
+  #heading .dots {
+    padding-left: 60px;
+  }
+  #heading .dots .green {
+    padding-left: 300px;
+    position: relative;
+    bottom: 10px;
+  }
+  #heading .dots .green img {
+    width: 100%;
+  }
+  #heading .dots .couch {
+    position: absolute;
+    bottom: -80px;
+  }
+  #heading .dots .couch img {
+    width: 100%;
+  }
+  #crafted {
+    padding: 100px 100px;
+  }
+  #crafted h3 {
+    font-size: 25px;
+    font-weight: 800;
+  }
+  #crafted p {
+    padding: 50px 0px 30px 0px;
+  }
+  #crafted .with button {
+    bottom: -30px;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+  }
+  #crafted .excellent {
+    display: flex;
+    gap: 80px;
+  }
+  #crafted .cards {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  #crafted .cards .card {
+    text-align: center;
+  }
+  #crafted .cards .card img {
+    width: 100%;
+  }
+  #who {
+    padding: 100px 60px 0px 60px;
+    position: relative;
+    background: #EFF2F1;
+  }
+  #who h5 {
+    font-size: 25px;
+  }
+  #who h6 {
+    font-size: 18px;
+  }
+  #who p {
+    font-size: 18px;
+    padding: 30px 0px;
+  }
+  #who .fast {
+    display: flex;
+    gap: 20px;
+  }
+  #who .fast .yellow {
+    bottom: 170px;
+    position: relative;
+  }
+  #who .fast .yellow img {
+    width: 80%;
+  }
+  #who .fast .yellow .dot {
+    position: absolute;
+    width: 300px;
+    top: 100px;
+    left: 30px;
+  }
+  #who .fast .yellow .dot img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  #who .card-container {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+  }
+  #who .card-container .card img {
+    left: -20px;
+    position: relative;
+  }
+  #who .card-container .box {
+    background: #CBD4D1;
+    padding: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 100%;
+  }
+  #who .card-container1 {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+  }
+  #who .card-container1 .card {
+    border: #3B5D50;
+  }
+  #who .card-container1 .card img {
+    left: -20px;
+    position: relative;
+  }
+  #who .card-container1 .box {
+    background: #CBD4D1;
+    padding: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+  }
+  #interior {
+    padding: 100px 0px 0px 40px;
+  }
+  #interior .dot {
+    display: flex;
+    gap: 20px;
+  }
+  #interior .ndudu {
+    display: flex;
+    position: relative;
+  }
+  #interior .ndudu .into img {
+    width: 100%;
+  }
+  #interior .ndudu .in {
+    padding: 60px 0px;
+    position: absolute;
+    width: 300px;
+    left: -230px;
+    position: relative;
+  }
+  #interior .ndudu .in img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  #interior .inside {
+    padding: 60px 0px;
+  }
+  #interior .inside img {
+    width: 200px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    border-radius: 20px;
+  }
+  #interior .office {
+    position: absolute;
+    width: 150px;
+    left: 90px;
+    top: 40px;
+  }
+  #interior .office img {
+    border-radius: 20px;
+    width: 100%;
+  }
+  #interior .modern {
+    padding: 80px 0px 0px 0px;
+  }
+  #interior .modern h6 {
+    font-size: 23px;
+    font-weight: 800;
+  }
+  #interior .modern p {
+    padding: 10px 0px 0px 0px;
+  }
+  #interior .modern li {
+    padding: 0px 0px 30px 0px;
+  }
+  #interior .modern .listed {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: square;
+  }
+  #interior .modern .liste {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: square;
+  }
+  #interior .modern button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+  }
+  #nordic {
+    padding: 80px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EFF2F1;
+    gap: 30px;
+  }
+  #nordic .kruzo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: solid #3B5D50;
+    border-left: solid #fff;
+    border-top: #CBD4D1;
+    border-radius: 20px;
+  }
+  #nordic .kruzo h2 {
+    width: 100%;
+    font-size: 20px;
+  }
+  #nordic .kruzo p {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+  #nordic .kruzo .pic img {
+    width: 100%;
+  }
+  #nordic .kruzo button {
+    border: none;
+    color: #F8C045;
+  }
+  #nordic .kruzo button:hover {
+    background: #CBD4D1;
+    color: #000;
+    border: solid #3B5D50;
+    padding: 10px 10px;
+  }
+  #maria {
+    padding: 80px 80px;
+    text-align: center;
+  }
+  #maria .jones h3 {
+    font-size: 25px;
+  }
+  #maria .jones p {
+    padding: 30px 180px;
+    font-size: 20px;
+  }
+  #maria .profile img {
+    border-radius: 50%;
+  }
+  #bloger {
+    padding: 80px 80px;
+    background: #EFF2F1;
+    position: relative;
+  }
+  #bloger .blog {
+    display: flex;
+    gap: 600px;
+  }
+  #bloger .blog h4 {
+    font-size: 25px;
+  }
+  #bloger .blog a {
+    color: #000;
+  }
+  #bloger .wrapper-container {
+    padding: 30px 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  #bloger .wrapper-container .card img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  #bloger .wrapper-container .card h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  #bloger .wrapper-container .card p span {
+    font-weight: 800;
+  }
+  form {
+    padding: 80px;
+  }
+  form .news {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+  }
+  form .inputs {
+    display: flex;
+    gap: 200px;
+  }
+  form .inputs button {
+    background: #3B5D50;
+    border: none;
+    font-size: 0px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 10px;
+  }
+  form .inputs .put {
+    display: flex;
+    gap: 10px;
+  }
+  form .inputs .put input {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid(rgba #3B5D50);
+  }
+  form .inputs .sofa {
+    position: absolute;
+    left: 700px;
+    top: 97cm;
+  }
+  form .inputs .sofa img {
+    width: 100%;
+  }
+  #toes {
+    padding: 100px 80px;
+  }
+  #toes h1 {
+    color: #3B5D50;
+  }
+  #toes .textbox {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+  #toes .textbox a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  #toes .textbox .cons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    gap: 20px;
+  }
+  #toes .textbox .cons .ico {
+    background: #68867c;
+    padding: 20px;
+    border-radius: 70%;
+  }
+  #toes .textbox .cons .ico img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #navbar {
+    padding: 20px 50px 0px 50px;
+    display: flex;
+    background: #3B5D50;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    position: absolute;
+    z-index: 1;
+    height: -moz-max-content;
+    height: max-content;
+    width: 100%;
+  }
+  #navbar h1 {
+    font-size: 45px;
+    color: #fff;
+  }
+  #navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: #fff;
+  }
+  #navbar nav {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 20px;
+  }
+  #navbar .cart {
+    display: flex;
+    gap: 20px;
+  }
+  #heading {
+    background: #3B5D50;
+    padding: 130px 60px;
+    background-size: cover;
+    position: relative;
+    height: auto;
+  }
+  #heading .mode {
+    display: flex;
+  }
+  #heading h2 {
+    font-size: 48px;
+    color: #fff;
+  }
+  #heading p {
+    padding: 40px 0px 20px 0px;
+    font-size: 20px;
+    color: #fff;
+  }
+  #heading .btn {
+    display: flex;
+    gap: 10px;
+  }
+  #heading .btn button {
+    padding: 15px 30px;
+    background: #F8C045;
+    border-radius: 30px;
+    color: #fff;
+  }
+  #heading .btn .sbtn button {
+    background: #fff;
+    color: #000;
+  }
+  #heading .dots {
+    padding-left: 40px;
+  }
+  #heading .dots .green {
+    padding-left: 200px;
+    position: relative;
+    bottom: 20px;
+  }
+  #heading .dots .green img {
+    width: 100%;
+  }
+  #heading .dots .couch {
+    position: absolute;
+    bottom: 0px;
+  }
+  #heading .dots .couch img {
+    width: 100%;
+  }
+  #crafted {
+    padding: 100px 100px;
+  }
+  #crafted h3 {
+    font-size: 25px;
+    font-weight: 800;
+  }
+  #crafted p {
+    padding: 50px 0px 30px 0px;
+  }
+  #crafted .with button {
+    bottom: -30px;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+  }
+  #crafted .excellent {
+    display: flex;
+    gap: 80px;
+  }
+  #crafted .cards {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  #crafted .cards .card {
+    text-align: center;
+  }
+  #crafted .cards .card img {
+    width: 100%;
+  }
+  #who {
+    padding: 100px 0px 0px 100px;
+    position: relative;
+    background: #EFF2F1;
+  }
+  #who h5 {
+    font-size: 25px;
+  }
+  #who h6 {
+    font-size: 18px;
+  }
+  #who p {
+    font-size: 18px;
+    padding: 30px 0px;
+  }
+  #who .fast {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  #who .fast .yellow {
+    bottom: 200px;
+    position: relative;
+  }
+  #who .fast .yellow img {
+    width: 80%;
+    display: none;
+  }
+  #who .fast .yellow .dot {
+    position: absolute;
+    width: 400px;
+    top: 100px;
+    left: 80px;
+  }
+  #who .fast .yellow .dot img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  #who .card-container {
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+  }
+  #who .card-container .card img {
+    left: -20px;
+    position: relative;
+  }
+  #who .card-container .box {
+    background: #CBD4D1;
+    padding: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 100%;
+  }
+  #who .card-container1 {
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+  }
+  #who .card-container1 .card {
+    border: #3B5D50;
+  }
+  #who .card-container1 .card img {
+    left: -20px;
+    position: relative;
+  }
+  #who .card-container1 .box {
+    background: #CBD4D1;
+    padding: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+  }
+  #interior {
+    padding: 100px 0px 0px 100px;
+  }
+  #interior .dot {
+    display: flex;
+    gap: 0px;
+    flex-direction: column-reverse;
+  }
+  #interior .ndudu {
+    display: flex;
+    position: relative;
+  }
+  #interior .ndudu .into {
+    display: flex;
+    justify-content: center;
+  }
+  #interior .ndudu .into img {
+    width: 60%;
+  }
+  #interior .ndudu .in {
+    padding: 60px 0px;
+    position: absolute;
+    width: 300px;
+    left: 180px;
+    position: relative;
+  }
+  #interior .ndudu .in img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  #interior .inside {
+    padding: 60px 0px;
+  }
+  #interior .inside img {
+    width: 200px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    border-radius: 20px;
+  }
+  #interior .office {
+    position: absolute;
+    width: 150px;
+    left: 20px;
+    top: 40px;
+  }
+  #interior .office img {
+    border-radius: 20px;
+    width: 100%;
+  }
+  #interior .modern {
+    padding: 80px 0px 0px 0px;
+  }
+  #interior .modern h6 {
+    font-size: 23px;
+    font-weight: 800;
+  }
+  #interior .modern p {
+    padding: 10px 0px 0px 0px;
+  }
+  #interior .modern li {
+    padding: 0px 0px 30px 0px;
+  }
+  #interior .modern .listed {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: square;
+  }
+  #interior .modern .liste {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: square;
+  }
+  #interior .modern button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+  }
+  #nordic {
+    padding: 80px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EFF2F1;
+    gap: 30px;
+  }
+  #nordic .kruzo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: solid #3B5D50;
+    border-left: solid #fff;
+    border-top: #CBD4D1;
+    border-radius: 20px;
+  }
+  #nordic .kruzo h2 {
+    width: 100%;
+    font-size: 20px;
+  }
+  #nordic .kruzo p {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+  #nordic .kruzo .pic img {
+    width: 100%;
+  }
+  #nordic .kruzo button {
+    border: none;
+    color: #F8C045;
+  }
+  #nordic .kruzo button:hover {
+    background: #CBD4D1;
+    color: #000;
+    border: solid #3B5D50;
+    padding: 10px 10px;
+  }
+  #maria {
+    padding: 80px 80px;
+    text-align: center;
+  }
+  #maria .jones h3 {
+    font-size: 25px;
+  }
+  #maria .jones p {
+    padding: 30px 180px;
+    font-size: 20px;
+  }
+  #maria .profile img {
+    border-radius: 50%;
+  }
+  #bloger {
+    padding: 80px 80px;
+    background: #EFF2F1;
+    position: relative;
+  }
+  #bloger .blog {
+    display: flex;
+    gap: 320px;
+  }
+  #bloger .blog h4 {
+    font-size: 25px;
+  }
+  #bloger .blog a {
+    color: #000;
+  }
+  #bloger .wrapper-container {
+    padding: 30px 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  #bloger .wrapper-container .card img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  #bloger .wrapper-container .card h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  #bloger .wrapper-container .card p span {
+    font-weight: 800;
+  }
+  form {
+    padding: 80px;
+  }
+  form .news {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+  }
+  form .inputs {
+    display: flex;
+    gap: 200px;
+  }
+  form .inputs button {
+    background: #3B5D50;
+    border: none;
+    font-size: 0px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 10px;
+  }
+  form .inputs .put {
+    display: flex;
+    gap: 10px;
+  }
+  form .inputs .put input {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid(rgba #3B5D50);
+  }
+  form .inputs .sofa {
+    position: absolute;
+    left: 400px;
+    top: 120cm;
+  }
+  form .inputs .sofa img {
+    width: 100%;
+  }
+  #toes {
+    padding: 100px 80px;
+  }
+  #toes h1 {
+    color: #3B5D50;
+  }
+  #toes .textbox {
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row;
+  }
+  #toes .textbox a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  #toes .textbox .cons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    gap: 20px;
+  }
+  #toes .textbox .cons .ico {
+    background: #68867c;
+    padding: 20px;
+    border-radius: 70%;
+  }
+  #toes .textbox .cons .ico img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
